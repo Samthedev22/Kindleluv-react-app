@@ -3,12 +3,13 @@ export type MatchTypes = {
   name: string;
   age: string;
   gender: string;
+  height: string;
   profession: string;
   location: string;
   distance: string;
   about: string;
   lookingFor: string;
-  interest: any;
+  hobbies: any;
   image: any;
 };
 
@@ -18,12 +19,13 @@ const userDetails: MatchTypes[] = [
     name: "John",
     age: "33",
     gender: "Male",
+    height: "5:11",
     profession: "Entreprenuer & CEO",
     location: "Montreal Quebec",
     distance: "19km",
     about: "Hi, I am John and I love business and adventure.",
     lookingFor: "Something Casual",
-    interest: ["Traveling", "Food", "Movies", "Singing", "Piano"],
+    hobbies: ["Traveling", "Food", "Movies", "Singing", "Piano"],
     image: [
       require("../assets/img/guy2.png"),
       require("../assets/img/guy4.png"),
@@ -36,13 +38,14 @@ const userDetails: MatchTypes[] = [
     name: "Catherine",
     age: "23",
     gender: "Female",
+    height: "5:11",
     profession: "Teacher ",
     location: "Ottawa Ontario",
     distance: " 230km",
     about:
       "Hi I am Cathrine, I am a cook by profession and I love spending time with family and enjoying the nature and adventure.",
     lookingFor: "Marriage",
-    interest: ["Singing", "Cooking", "Dancing", "Teaching", "Reading"],
+    hobbies: ["Singing", "Cooking", "Dancing", "Teaching", "Reading"],
     image: [
       require("../assets/img/lady3.png"),
       require("../assets/img/lady.png"),
@@ -55,12 +58,13 @@ const userDetails: MatchTypes[] = [
     name: "Lisa",
     age: "27",
     gender: "Female",
+    height: "5:3",
     profession: "Self-employed",
     location: "Toronto Ontario",
     distance: " 139km",
     about: "Hi I am Lisa, not the popular Mona Lisa but you favorite lisa.",
     lookingFor: "Serious Relationship.",
-    interest: ["Music", "Invesment", "Art", "Videography", "Baking"],
+    hobbies: ["Music", "Invesment", "Art", "Videography", "Baking"],
     image: [
       require("../assets/img/lady4.png"),
       require("../assets/img/lady4.png"),

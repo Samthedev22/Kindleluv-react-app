@@ -62,7 +62,7 @@ const Item = ({ item }: ItemProps) => {
           paddingBottom: 20,
         }}
       >
-        {item.interest.map((interest: any, index: number) => (
+        {item.hobbies.map((interest: any, index: number) => (
           // <Text key={index} className="w-5 border p-2 gap-5">
           <Text
             key={index}
